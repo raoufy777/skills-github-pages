@@ -56,24 +56,24 @@ romantic_html = '''
     <p>I thought i'd put my new skills to use with this new soppy code. Hopefully it passes the fact I forgot the card in Manchester.</p>
     <p class="heart">❤️</p>
     <h2>Happy Valentine's Day!</h2>
-    <div class="message-box">
-        <h3>Reason 1: Your Kindness</h3>
+    <details class="message-box">
+        <summary><h3>Reason 1: Your Kindness</h3></summary>
         <p>You always go out of your way to help others.</p>
         <p>You have a heart of gold and a smile that brightens the day.</p>
         <p>Your kindness knows no bounds, making everyone feel special.</p>
-    </div>
-    <div class="message-box">
-        <h3>Reason 2: Your Humor</h3>
+    </details>
+    <details class="message-box">
+        <summary><h3>Reason 2: Your Humor</h3></summary>
         <p>You make me laugh even on my darkest days.</p>
         <p>I love your crazy antics - especially the way you wobble like a cute penguin.</p>
         <p>I especially love your crazy borderline racist comments - is there someting wong with that.</p>
-    </div>
-    <div class="message-box">
-        <h3>Reason 3: Your Strength</h3>
+    </details>
+    <details class="message-box">
+        <summary><h3>Reason 3: Your Strength</h3></summary>
         <p>I love the way you power through everything - despite everything that is affecting you.</p>
         <p>I love how even when you're down - you are my support and pillar.</p>
         <p>You are the strongest / most determined person I know.</p>
-    </div>
+    </details>
 <h1>Our Love Story</h1>
     <p><a href="https://drive.google.com/drive/folders/1-k3vSd2GZXM0xnipAQioBR-h9G3KCEOL" target="_blank">View Our Photos on Google Drive</a></p>
     <p><a href="/">Back to Home</a></p>
@@ -87,3 +87,4 @@ def home():
 
 if __name__ == '__main__':
     app.run()
+
