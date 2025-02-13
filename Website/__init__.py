@@ -107,8 +107,6 @@ story_html = '''
             max-width: 1500px;   /* Max width of 300px */
             height: auto;       /* Height will adjust to maintain the aspect ratio */
         }
-
-        }
         a {
             color: #8B0000;
             text-decoration: none;
@@ -123,11 +121,11 @@ story_html = '''
 <body>
     <h1>Our Love Story</h1>
     <div class="gallery">
-        <img src="/static/image1.jpeg" alt="image 1">
-        <img src="/static/image2.jpeg" alt="image 2">
-        <img src="/static/image3.jpeg" alt="image 3">
-        <img src="/static/image4.jpeg" alt="image 4">
-        <img src="/static/image5.jpeg" alt="image 5">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." alt="image 1">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." alt="image 2">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." alt="image 3">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." alt="image 4">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." alt="image 5">
     </div>
     <p><a href="/">Back to Home</a></p>
 </body>
