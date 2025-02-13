@@ -79,6 +79,7 @@ romantic_html = '''
     <p><a href="/">Back to Home</a></p>
 </body>
 </html>
+"""
 
 @app.route('/')
 def home():
