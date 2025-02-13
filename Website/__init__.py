@@ -74,71 +74,15 @@ romantic_html = '''
         <p>I love how even when you're down - you are my support and pillar.</p>
         <p>You are the strongest / most determined person I know.</p>
     </div>
-    <p><a href="/story">Explore Our Story</a></p>
-</body>
-</html>
-'''
-
-# Your story HTML page content
-story_html = '''
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Story</title>
-    <style>
-        body {
-            background-color: #FFF0F5; /* Lavender Blush */
-            font-family: 'Times New Roman', Times, serif;
-            color: #8B0000; /* Dark Red */
-            text-align: center;
-            padding: 50px;
-        }
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        .gallery img {
-            margin: 10px;
-            border: 2px solid #8B0000;
-            border-radius: 10px;
-            max-width: 1500px;   /* Max width of 300px */
-            height: auto;       /* Height will adjust to maintain the aspect ratio */
-        }
-        a {
-            color: #8B0000;
-            text-decoration: none;
-            margin-top: 20px;
-            display: inline-block;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
-    <h1>Our Love Story</h1>
-    <div class="gallery">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." alt="image 1">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." alt="image 2">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." alt="image 3">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." alt="image 4">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." alt="image 5">
-    </div>
+<h1>Our Love Story</h1>
+    <p><a href="https://drive.google.com/your-google-drive-link-here" target="_blank">View Our Photos on Google Drive</a></p>
     <p><a href="/">Back to Home</a></p>
 </body>
 </html>
-'''
 
 @app.route('/')
 def home():
     return render_template_string(romantic_html)
-
-@app.route('/story')
-def story():
-    return render_template_string(story_html)
 
 if __name__ == '__main__':
     app.run()
