@@ -145,7 +145,4 @@ def story():
 if __name__ == '__main__':
     app.run()
 
-
-
-
-
+git add file_with_conflicts
