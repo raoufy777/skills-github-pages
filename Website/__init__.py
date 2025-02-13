@@ -75,7 +75,7 @@ romantic_html = '''
         <p>You are the strongest / most determined person I know.</p>
     </div>
 <h1>Our Love Story</h1>
-    <p><a href="https://drive.google.com/your-google-drive-link-here" target="_blank">View Our Photos on Google Drive</a></p>
+    <p><a href="https://drive.google.com/drive/folders/1-k3vSd2GZXM0xnipAQioBR-h9G3KCEOL" target="_blank">View Our Photos on Google Drive</a></p>
     <p><a href="/">Back to Home</a></p>
 </body>
 </html>
